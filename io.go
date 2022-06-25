@@ -1,6 +1,8 @@
 package fn
 
-import "bytes"
+import (
+	"bytes"
+)
 
 // Wrap bytes to Buffer(readable or writeable)
 func Wrap(bys []byte) *bytes.Buffer {
